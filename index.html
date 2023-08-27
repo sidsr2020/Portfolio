@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>siddhant's portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="menu">
+        <button id="close-menu">&times;</button>
+        <nav>
+            <ul>
+                <li><a href="#about-me">About-Me</a></li>
+                <li><a href="#qualifications">Qualifiactions</a></li>
+                <li><a href=""></a><a href="#hobbies">hobbies</a></li>
+                <li><a href="#technologies">technologies</a></li>
+                <li><a href="#contact-me">Contact Me</a></li>
+            </ul>
+        </nav>
+    </section>
+    <header>
+        <nav class="default_nav">
+            <a href="#about-me">About-Me</a><a href="#qualifications">Qualifiactions</a><a href=""></a><a href="#hobbies">hobbies</a><a href="#technologies">technologies</a><a href="#contact-me">Contact Me</a>
+        </nav>
+        <nav class="mobile-nav">
+            <button id="menu-button">menu</button>
+        </nav> 
+    </header>
+    <main class="container">
+        <article class="intro"> 
+            <img id="profile-image" src="photo upload.jpg" alt="profile image - siddhant"/>
+            <h1>Hi, I'm Siddhant</h1>
+            <p>I am <span id="dynamic-text" class="dynamic-text-color"></span></p>
+            <p class="social-links"><a href="https://codeforces.com/submissions/siddhantsarkar20" target="_blank"><img width="1000" height="500" src="https://upload.wikimedia.org/wikipedia/en/3/38/Codeforces%27s_new_logo.png" alt="" ></a>
+                <a href="https://www.codechef.com/users/siddhant_63"  target="_blank"><img width="200" height="100" src="https://upload.wikimedia.org/wikipedia/en/7/7b/Codechef%28new%29_logo.svg" alt=""></a></p>
+            </article>
+    <section id="about-me">
+    <h2>About Me</h2>
+    <p>a student of btech cse 3rd year passionate about coding and technology.</p>
+    <p>I know about html , css , javascript and reactjs.</p>
+    <p>Also I'm intermidiate in c++ and dsa.</p>
+    </section>
+    <section id="qualifications">
+    <h2>Qualifications</h2>
+    <ol>
+        <li>persuing btech cse from IET LUCKNOW</li>
+        <li>class-XII passed fom dpssl</li>
+        <li>class-X passed from dpssl</li>
+    </ol>
+</section>
+    <section id="hobbies">
+    <h2>hobbies</h2>
+    <ul>
+        <li>playing cricket</li>
+        <li>travelling</li>
+        <li>playing mobile and pc games</li>
+    </ul>
+</section>
+    <section id="technologies">
+    <h2>technologies</h2>
+    <table>
+        <tr>
+            <th>frontend</th>
+            <th>backened</th>
+            <th>database</th>
+        </tr>
+        <tr>
+            <td>html</td>
+            <td>nodejs</td>
+            <td>mysql</td>
+        </tr>
+        <tr>
+            <td>css</td>
+            <td>rails</td>
+            <td>mongo db</td>
+        </tr>
+        <tr>
+            <td>js</td>
+            <td>asp.net</td>
+            <td>postgres</td>
+        </tr>
+    </table>
+</section> 
+ <section id="contact-me">
+    <form name="contact" id="contact" method="post" data-netlify="true">
+        <h1>Contact Me</h1>
+        <section>
+            <label for="firstName">first Name</label>
+            <input type="text" name="firstName" id="firstName"/>
+        </section>
+        <section>
+            <label for="lastName">last Name</label>
+            <input type="text" name="lastName" id="lastName"/>
+        </section>
+        <section>
+            <label for="message">message</label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </section>
+        <button type="submit">send</button>
+    </form>
+</section>
+</main>
+<footer>
+    made by Siddhant
+</footer>
+    <script src="main.js"></script>
+    <script src="menu.js"></script>
+</body>
+</html>
