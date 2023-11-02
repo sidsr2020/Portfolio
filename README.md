@@ -1,0 +1,1 @@
+# Portfolio A portfolio website created using HTML, CSS, and JavaScript serves as a digital representation of your work, skills, and personal brand. It provides visitors with information about you and your accomplishments.
